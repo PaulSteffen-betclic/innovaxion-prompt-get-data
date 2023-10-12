@@ -18,11 +18,13 @@ OPENAI_API_KEY = "sk-2v...X"
 [connections.snowpark]
 user = "<username>"
 password = "<password>"
-warehouse = "COMPUTE_WH"
-role = "ACCOUNTADMIN"
+warehouse = "<warehouse>"
+role = "<role>"
 account = "<account-id>"
 ```
-To use SSO, replace the use of password by `authenticator = "externalbrowser"`.
+To use SSO, replace the use of password by `authenticator = "externalbrowser"`.  
+Need to be relevent to request the schema the schema `INOVAXION` in the database `DATASCIENCE_DEV`.
+
 
 
 ### Quick start (do it for each run)
