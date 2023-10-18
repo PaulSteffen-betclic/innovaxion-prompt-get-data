@@ -23,14 +23,14 @@ role = "<role>"
 account = "<account-id>"
 ```
 To use SSO, replace the use of password by `authenticator = "externalbrowser"`.  
-Need to be relevent to request the schema the schema `INOVAXION` in the database `DATASCIENCE_DEV`.
+Need to be relevent to request the schema `INOVAXION` in the database `DATASCIENCE_DEV`.
 
 ### Quick start (do it for each run)
 1. If you're note in the directory of the project, head back over to the command line and navigate to your `innovaxion-prompt-get-data` folder.
 2. Activate the virtual environment.
    `conda activate prompt-get-data`
 3. Run the Streamlit app via streamlit.
-   `treun frosty_app.py`
+   `streamlit run frosty_app.py`
 
 ## How does it work
 1. Give to your LLM (ChatGPT here), a short description of the tables involved for your project (manually), including the type of each column in the tables (automatically).
