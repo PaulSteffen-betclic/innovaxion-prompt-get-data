@@ -30,7 +30,7 @@ Need to be relevent to request the schema the schema `INOVAXION` in the database
 2. Activate the virtual environment.
    `conda activate prompt-get-data`
 3. Run the Streamlit app via streamlit.
-   `run frosty_app.py`
+   `treun frosty_app.py`
 
 ## How does it work
 1. Give to your LLM (ChatGPT here), a short description of the tables involved for your project (manually), including the type of each column in the tables (automatically).
