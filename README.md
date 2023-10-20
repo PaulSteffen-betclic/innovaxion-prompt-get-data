@@ -4,7 +4,7 @@ Get data from database using Large Language Model
 ## How to use it
 
 ### Setup (do it only 1 time)
-1. If you're note in the directory of the project, head back over to the command line and navigate to your `innovaxion-prompt-get-data` folder.  
+1. If you're not in the directory of the project, head back over to the command line and navigate to your `innovaxion-prompt-get-data` folder.  
 2. Create a virtual environment with all the required dependencies:  
    `conda env create -f environment.yml`
 3. Add a folder within your `innovaxion-prompt-get-data` folder called `.streamlit`.  
